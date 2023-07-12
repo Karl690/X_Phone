@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:layout_gravity="top" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:gravity="center_vertical|center|top">
+        <ImageView
+            android:src="@drawable/btn_bluetooth"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:onClick="btnBluetooth_click"
+            android:id="@+id/btnBluetooth" />
+        <Space
+            android:layout_width="13.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1"
+            android:layout_marginRight="25.0dp" />
+        <ImageView
+            android:src="@drawable/btn_wifi"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnWifi" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30px"
+        android:layout_gravity="top" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:gravity="top|center_vertical|center">
+        <ImageView
+            android:src="@drawable/btn_control"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:onClick="btnControl_click"
+            android:id="@+id/btnControl"
+            android:clickable="true" />
+        <Space
+            android:layout_width="13.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25.0dp" />
+        <ImageView
+            android:src="@drawable/btn_settings"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnSettings" />
+    </LinearLayout>
+</LinearLayout>
